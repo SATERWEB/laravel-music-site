@@ -1,0 +1,40 @@
+@font-face {
+    font-family: vazir;
+    src:
+            url("../fonts/Vazir-Medium-FD-WOL.eot") format("opentype"),
+            url("../fonts/Vazir-Medium-FD-WOL.woff2") format("woff2"),
+            url("../fonts/Vazir-Medium-FD-WOL.ttf") format("truetype"),
+            url("../fonts/Vazir-Medium-FD-WOL.woff") format("woff");
+}
+@font-face {
+    font-family: iransans;
+    src:
+            url("../fonts/iransansweb/IRANSansWeb.eot") format("opentype"),
+            url("../fonts/iransansweb/IRANSansWeb.ttf") format("truetype"),
+            url("../fonts/iransansweb/IRANSansWeb.woff") format("woff");
+}
+@font-face {
+    font-family: iranyekan;
+    src:
+            url("../fonts/iranyekan/IRANYekanWeb.otf"),
+            url("../fonts/iranyekan/IRANYekanWeb.ttf") format("truetype"),
+            url("../fonts/iranyekan/IRANYekanWeb.woff") format("woff");
+            url("../fonts/iranyekan/IRANYekanWeb.woff2") format("woff2"),
+
+}
+@font-face {
+    font-family: kalameh;
+    src:
+            url("../fonts/kalameh/KalamehWebFaNum.eot") format("opentype"),
+            url("../fonts/kalameh/KalamehWebFaNum.ttf") format("truetype"),
+            url("../fonts/kalameh/KalamehWebFaNum.woff") format("woff");
+            url("../fonts/kalameh/KalamehWebFaNum.woff2") format("woff2"),
+}
+@font-face {
+    font-family: maneli;
+    src:
+            url("../fonts/Maneli/Maneli.otf") ,
+            url("../fonts/Maneli/Maneli.ttf") format("truetype"),
+            url("../fonts/Maneli/Maneli.woff") format("woff");
+            url("../fonts/Maneli/Maneli.woff2") format("woff2"),
+}

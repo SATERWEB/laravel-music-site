@@ -1,0 +1,256 @@
+@import url('css/fonts.css');
+
+* {
+
+
+}
+ul li {
+    list-style: none;
+    font-family: Kalameh;
+}
+body {
+    background-color: #efefef !important;
+}
+a {
+    text-decoration: none!important;
+    color: #161616!important;
+    transition: all 300ms ease;
+}
+.spec-top {
+    border-radius: 10px !important;
+}
+
+.spec-top img {
+    border-radius: 10px !important;
+}
+
+.spec-top-body h5 {
+    font-family: Kalameh;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.spec-top-body p {
+    font-size: 13px;
+    font-family: Kalameh;
+    text-align: center;
+
+}
+
+.icon-m {
+    width: 32px;
+    height: 32px;
+    background: #8e44ad;
+    border-radius: 10px;
+    margin-left: .5em;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.kalameh {
+    font-family: Kalameh !important;
+}
+
+.p-1-5 {
+    padding: 0.4rem;
+}
+
+.mx-200 {
+    max-width: 200px;
+}
+
+.side-body ul li {
+    display: flex;
+    align-items: center;
+    line-height: 2.6;
+
+}
+.color-1 {
+    color: #8e44ad;
+}
+.card {
+    border-radius: .5rem !important;
+}
+
+.card-header {
+    background-color: #ece6ef !important;
+    border: 0px !important;
+}
+
+.side-header {
+    background-color: #8e44ad !important;
+    border: 0px !important;
+    color: #ffffff !important;
+}
+
+.card-side {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .5rem;
+}
+
+.top-menu {
+    font-family: Kalameh;
+
+}
+
+.img-post {
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+.iransans {
+    font-family: iransans;
+    font-weight: 400;
+}
+
+.vazir {
+    font-family: vazir;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card-header ul {
+    list-style: none;
+}
+
+.card-header ul li {
+    float: right;
+    margin-right: 2rem;
+    color: #6b6b6b;
+    font-size: 13px;
+}
+
+.top-menu ul {
+    list-style: none;
+}
+
+.btn-1 {
+    background-color: #9b59b6 !important;
+    color: #ffffff !important;
+}
+
+.btn-1:hover {
+    background-color: #ffffff !important;
+    color: #9b59b6 !important;
+    border: 1px dashed #9b59b6 !important;
+    transition: background 0.6s ease;
+}
+
+.top-menu ul li {
+    float: right;
+    margin-right: 2rem;
+}
+
+.text-samsn {
+    font-family: Kalameh;
+    color: #ffffff;
+}
+
+.site-notification {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 11;
+    background-color: #8e44ad;
+    border-radius: 30px;
+    color: #fff;
+    justify-content: center;
+    padding: 10px 15px 10px 5px;
+    margin-top: -30px;
+}
+.telegram {
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(90deg, #0067a2 0%, #249dfd 100%);
+    border-radius: 25px;
+    color: #ffffff;
+    font-family: Kalameh;
+}
+.telegram img {
+    max-width: 50px;
+    color: #ffffff;
+    margin-right: auto;
+}
+.telegram p {
+    margin-top: 1rem;
+}
+
+.instagram {
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(90deg, #a10627 0%, #ff1402 100%);
+    border-radius: 25px;
+    color: #ffffff;
+    font-family: Kalameh;
+}
+.instagram img {
+    max-width: 50px;
+    color: #ffffff;
+    margin-right: auto;
+}
+.instagram p {
+    margin-top: 1rem;
+}
+@media screen and (max-width: 480px) {
+    .xs-none {
+        display: none!important;
+    }
+    .toggle-logo {
+        max-width: 125px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .sm-none {
+        display: none!important;
+    }
+    .toggle-logo {
+        max-width: 175px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .md-none {
+        display: none!important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lg-none {
+        display: none!important;
+    }
+}
+.menu-ltr {
+    direction: ltr;
+}
+.footer {
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: right;
+}
+.footer-head {
+    background-color: #ece6ef;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: Kalameh;
+}
+.foot-link {
+    font-size: 13px!important;
+}
+.text-red {
+    color: #FF0000FF!important;
+}
+.download {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ font-family: Kalameh;
+}
