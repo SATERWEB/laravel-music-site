@@ -7,3 +7,8 @@ Route::prefix('admin')->group(function () {
 
 
 });
+Route::prefix('client')->group(function () {
+    require __DIR__ . '/client.php';
+
+
+});
