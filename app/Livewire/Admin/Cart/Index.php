@@ -55,6 +55,7 @@ class Index extends Component
 
         $this->reset();
         $this->dispatch('success', 'عملیات با موفقیت انجام شد');
+        return redirect()->route('admin.cart.list.index');
     }
 
     public function changeStatus(Cart $cart)
@@ -78,7 +79,7 @@ class Index extends Component
 
     public function render()
     {
-        $carts = Cart::query()->paginate(10);
+        $carts = Cart::query()->paginate(1);
         return view('livewire.admin.cart.index', [
             'carts' => $carts
         ])->layout('layouts.admin.app');

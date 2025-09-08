@@ -66,10 +66,7 @@
                         <a class="badge badge-light-info"
                            href="{{route('admin.cart.index')}}"> افزودن کارت جدید </a>
                     </li>
-                    <li>
-                        <a class="badge badge-light-success"
-                           href="{{--{{route('admin.transaction.index')}}?status=completed--}}"> لیست کارت ها </a>
-                    </li>
+
 
                 </ul>
             </li>
