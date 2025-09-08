@@ -21,3 +21,8 @@
 <link href="/admin/src/assets/css/light/dashboard/dash_1.css" rel="stylesheet" type="text/css"/>
 <link href="/admin/src/assets/css/dark/dashboard/dash_1.css" rel="stylesheet" type="text/css"/>
 <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+<!-- BEGIN SWEET ALERT STYLES -->
+<link rel="stylesheet" href="/admin/src/plugins/src/sweetalerts2/sweetalerts2.css">
+<link href="/admin/src/assets/css/dark/scrollspyNav.css" rel="stylesheet" type="text/css" />
+<link href="/admin/src/plugins/css/dark/sweetalerts2/custom-sweetalert.css" rel="stylesheet" type="text/css" />
+
