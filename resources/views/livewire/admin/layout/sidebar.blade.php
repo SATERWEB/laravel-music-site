@@ -64,7 +64,7 @@
                 <ul class="collapse submenu list-unstyled" id="components" data-bs-parent="#accordionExample">
                     <li>
                         <a class="badge badge-light-info"
-                           href="{{--{{route('admin.transaction.index')}}?status=all--}}"> افزودن کارت جدید </a>
+                           href="{{route('admin.cart.index')}}"> افزودن کارت جدید </a>
                     </li>
                     <li>
                         <a class="badge badge-light-success"
