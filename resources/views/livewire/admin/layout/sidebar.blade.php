@@ -91,7 +91,7 @@
                 </a>
                 <ul class="collapse submenu list-unstyled" id="orders" data-bs-parent="#accordionExample">
                     <li>
-                        <a class="badge badge-light-warning" href="{{--{{route('admin.order.index')}}?status=all--}}">
+                        <a class="badge badge-light-warning" href="{{route('admin.song.index')}}">
                             جدیدترین اهنگ ها </a>
                     </li>
                     <li>
@@ -124,13 +124,9 @@
                 </a>
                 <ul class="collapse submenu list-unstyled" id="users" data-bs-parent="#accordionExample">
                     <li>
-                        <a class="badge badge-light-info" href="{{--{{route('admin.user.index')}}--}}"> افزودن آهنگ
+                        <a class="badge badge-light-info" href="{{route('admin.song.index')}}"> افزودن آهنگ
                             جدید </a>
                     </li>
-                    <li>
-                        <a class="badge badge-light-secondary" href="./element-avatar.html"> لیست اهنگ ها </a>
-                    </li>
-
                 </ul>
             </li>
             <li class="menu">

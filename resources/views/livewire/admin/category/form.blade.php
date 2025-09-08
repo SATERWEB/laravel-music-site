@@ -21,11 +21,11 @@
                 </div>
 
                 @error('name')
-                <div class="alert alert-light-danger alert-dismissible fade show border-0 mb-4" role="alert" wire:loading.remove>
+                <div class="alert alert-danger alert-dismissible fade show border-0 mb-4" role="alert" wire:loading.remove>
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
                         <svg> ...</svg>
                     </button>
-                    <strong>خطا !</strong> {{$message}}.</button>
+                    <strong></strong> {{$message}}.</button>
                 </div>
                 @enderror
 

@@ -79,7 +79,7 @@ class Index extends Component
 
     public function render()
     {
-        $carts = Cart::query()->paginate(10);
+        $carts = Cart::query()->paginate(10 );
         return view('livewire.admin.cart.index', [
             'carts' => $carts
         ])->layout('layouts.admin.app');
