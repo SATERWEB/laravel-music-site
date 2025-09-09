@@ -1,10 +1,9 @@
 <?php
 
-namespace App\Livewire\Admin\Song;
+namespace App\Livewire\Admin\FooterSection;
 
 use App\Models\Category;
-use App\Models\Song;
-use Illuminate\Support\Facades\Validator;
+use App\Models\FooterSection;
 use Livewire\Component;
 use Livewire\WithFileUploads;
 use Livewire\WithPagination;
@@ -41,11 +40,11 @@ class Index extends Component
             '*.exists' => 'دسته بندی نا معتبر است.',
         ]);
 
-        $path = $this->link->store('songs', 'public');
+        $path = $this->link->store('footer-Songs', 'public');
 
         $imageName = time() . '_' . $this->image->getClientOriginalName();
         $imagePath = $this->image->storeAs('covers', $imageName, 'public');
-        Song::create([
+        FooterSection::create([
             'category_id' => $this->category,
             'title' => $this->title,
             'artist' => $this->artist,
@@ -58,18 +57,17 @@ class Index extends Component
         $this->dispatch('success', 'عملیات با موفقیت انجام شد.');
     }
 
-    public function delete($song_id)
+    public function delete($footer_id)
     {
-        Song::query()->where('id', $song_id)->delete();
+        FooterSection::query()->where('id', $footer_id)->delete();
         $this->dispatch('success', 'عملیات حذف با موفقیت انجام شد.');
     }
 
     public function render()
     {
-        $songs = Song::query()->with('category')->paginate(10);
-
-        return view('livewire.admin.song.index', [
-            'songs' => $songs
+        $footers = FooterSection::query()->with('category')->paginate(12);
+        return view('livewire.admin.footerSection.index', [
+            'footers' => $footers
         ])->layout('layouts.admin.app');
     }
 }

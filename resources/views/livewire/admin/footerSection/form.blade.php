@@ -4,7 +4,7 @@
         <div class="widget-header">
             <div class="row">
                 <div class="col-xl-12 col-md-12 col-sm-12 col-12">
-                    <h4>مدیریت سایدبار</h4>
+                    <h4>مدیریت فوتر</h4>
                 </div>
             </div>
         </div>
@@ -13,7 +13,7 @@
             <form wire:submit.prevent="submit">
 
 
-            <div class="row mb-2">
+                <div class="row mb-2">
                     <div class="col-sm-12">
                         <label for="category" class="form-label">دسته بندی والد</label>
                         <select id="category" class="form-control" name="category" wire:model="category" autocomplete="off" wire:ignore>

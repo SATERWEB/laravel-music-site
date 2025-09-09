@@ -91,20 +91,13 @@
                 </a>
                 <ul class="collapse submenu list-unstyled" id="orders" data-bs-parent="#accordionExample">
                     <li>
-                        <a class="badge badge-light-warning" href="{{route('admin.song.index')}}">
-                            جدیدترین اهنگ ها </a>
+                        <a class="badge badge-light-info" href="{{route('admin.song.index')}}">
+                            افزودن آهنگ </a>
                     </li>
-                    <li>
-                        <a class="badge badge-light-secondary"
-                           href="{{--{{route('admin.order.index')}}?status=pending--}}"> آهنگ های برتر </a>
-                    </li>
-                    <li>
-                        <a class="badge badge-light-info"
-                           href="{{--{{route('admin.order.index')}}?status=processing--}}"> بزودی ... </a>
-                    </li>
+
                 </ul>
             </li>
-            <li class="menu">
+            {{--<li class="menu">
                 <a href="#users" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                     <div class="">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -128,7 +121,7 @@
                             جدید </a>
                     </li>
                 </ul>
-            </li>
+            </li>--}}
             <li class="menu">
                 <a href="#transactions" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                     <div class="">
@@ -199,13 +192,15 @@
             </li>
 
             <li class="menu">
-                <a href="#setting" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                <a href="#footer" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                     <div class="">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                             stroke-linejoin="round" class="feather feather-terminal">
-                            <polyline points="4 17 10 11 4 5"></polyline>
-                            <line x1="12" y1="19" x2="20" y2="19"></line>
+                             stroke-linejoin="round" class="feather feather-box">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
                         </svg>
                         <span>تنیظیمات</span>
                     </div>
@@ -217,22 +212,27 @@
                         </svg>
                     </div>
                 </a>
-                <ul class="collapse submenu list-unstyled" id="setting" data-bs-parent="#accordionExample">
+                <ul class="collapse submenu list-unstyled" id="footer" data-bs-parent="#accordionExample">
+
                     <li>
-                        <a class="" href="./element-alerts.html"> تنظیمات اصلی سایت </a>
+                        <a class="badge badge-light-success"
+                           href="{{route('admin.header.index')}}"> هدر </a>
                     </li>
                     <li>
-                        <a class="" href="./element-alerts.html"> تنظیمات هدر </a>
+                        <a class="badge badge-light-info"
+                           href="{{route('admin.footerSection.index')}}"> فوتر </a>
                     </li>
                     <li>
-                        <a class="" href="./element-avatar.html"> تظیمات فوتر</a>
+                        <a class="badge badge-light-secondary"
+                           href="{{route('admin.copyRight.index')}}"> کپی رایت </a>
                     </li>
                     <li>
-                        <a class="" href="./element-avatar.html"> تظیمات سایدبار</a>
+                        <a class="badge badge-light-warning"
+                           href="{{--{{route('admin.footerSection.index')}}--}}"> طراحی </a>
                     </li>
+
                 </ul>
             </li>
-
             <li class="menu">
                 <a href="{{route('admin.category.index')}}" aria-expanded="false" class="dropdown-toggle">
                     <div class="">
